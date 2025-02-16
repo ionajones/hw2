@@ -120,6 +120,21 @@ maximize your score.
   * A code template for this assignment can be found in
     `src/phys305_hw2/a4.py`.
 
+### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
+
+* **Objective**:
+  Submit your team information for the upcoming class project by completing a YAML file.
+
+* **Details**:
+  * Project 1 submission is handled by GitHub classroom.
+    Please use https://classroom.github.com/a/02xVMVb2 to
+    join a project.
+  * Edit the file `src/phys305_hw2/a5.yaml` to include:
+    * A key `team` with the name of your project team.
+    * A key `date` with your preferred presentation date in the format
+      `March DD`.
+  * This assignment ensures students begin forming groups and
+    scheduling their presentations early.
 
 ## Submission Guidelines
 
