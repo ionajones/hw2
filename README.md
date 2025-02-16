@@ -105,16 +105,15 @@ maximize your score.
   that maximizes $R(\theta)$.
 
 * **Details**:
-  * Create a function `gd(v0, g, gamma, theta0)` to perform gradient descent.
-    * Starts with an initial guess `theta0`.
-    * Computes the gradient (derivative) $R'(\theta)$ using your
-      finite difference scheme from Assignment 3.
-    * Updates $\theta \leftarrow \theta - \alpha \, R'(\theta)$ each
-      iteration.
-    * Stops when the change in $\theta$ becomes smaller than some
-      tolerance `tol` or when `max_iter` is reached.
+  * Create a function `gd_hist(df, x0, alpha, imax=1000)` to perform
+    gradient descent.
+    * Starts with an initial guess `theta0` -> `x0`.
+    * Computes the gradient (derivative) $R'(\theta)$ -> `df` using
+      your finite difference scheme from Assignment 3.
   * Experiment with different step sizes `alpha` (the "learning rate")
     to see how it affects convergence.
+  * Create a function `Theta(v0, g, gamma)` that uses `gd_hist()` to
+    maximize the range function by adjust the launch angle `theta`.
   * Compare the angle you find with the analytical $45^\circ$ result
     in the no-drag case, and observe how it changes for increasing
     $\gamma$.
