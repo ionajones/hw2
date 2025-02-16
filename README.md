@@ -35,6 +35,29 @@ template, you can ensure compatibility with the autograding system and
 maximize your score.
 
 
+## Assignments
+
+### **Assignment 1**: Implement the Vertical Motion $y(t)$ and Solve for Flight Time $T(\theta)$ (2 points)
+
+* **Objective**:
+  Implement the equation for the projectile's vertical position $y(t)$
+  under linear drag, then use a root-finding algorithm to determine
+  the non-trivial flight time $T$ (i.e., when $y(t) = 0$ after
+  launch).
+
+* **Details**:
+  * Write a function `y(theta, v0, g, gamma, t)` that returns the
+    vertical position at time `t`.
+  * Make sure to handle the special case $\gamma = 0$ (no drag).
+  * Implement a root finder.
+  * Implement a function `T(theta, v0, g, gamma)` that uses the root
+    finder to find the positive time root of `y(...) = 0`.
+  * A good initial guess for the root is the no-drag flight time.
+  * Test your function(s) for different parameters.
+    Print or plot the results to ensure they make physical sense.
+  * The description of this assignment and a code skeleton can be
+    found in `src/phys305_hw2/a1.py`.
+
 ## Submission Guidelines
 
 1. Create a new repostiory based on this template by using the GitHub
