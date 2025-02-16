@@ -97,6 +97,30 @@ maximize your score.
   * The description and relevant code can be found in
     `src/phys305_hw2/a3.py`.
 
+### **Assignment 4**: Gradient Descent to Optimize the Launch Angle (2 points)
+
+* **Objective**:
+  Use a gradient descent algorithm and your finite-difference
+  derivative from Assignment 3 to numerically find the angle $\theta$
+  that maximizes $R(\theta)$.
+
+* **Details**:
+  * Create a function `gd(v0, g, gamma, theta0)` to perform gradient descent.
+    * Starts with an initial guess `theta0`.
+    * Computes the gradient (derivative) $R'(\theta)$ using your
+      finite difference scheme from Assignment 3.
+    * Updates $\theta \leftarrow \theta - \alpha \, R'(\theta)$ each
+      iteration.
+    * Stops when the change in $\theta$ becomes smaller than some
+      tolerance `tol` or when `max_iter` is reached.
+  * Experiment with different step sizes `alpha` (the "learning rate")
+    to see how it affects convergence.
+  * Compare the angle you find with the analytical $45^\circ$ result
+    in the no-drag case, and observe how it changes for increasing
+    $\gamma$.
+  * A code template for this assignment can be found in
+    `src/phys305_hw2/a4.py`.
+
 
 ## Submission Guidelines
 
