@@ -58,6 +58,27 @@ maximize your score.
   * The description of this assignment and a code skeleton can be
     found in `src/phys305_hw2/a1.py`.
 
+### **Assignment 2**: Implement the Horizontal Motion $x(t)$ and Compute Range (2 points)
+
+* **Objective**:
+  Write a function for the horizontal position $x(t)$ and combine it
+  with the flight time from Assignment 1 to compute the projectile's
+  range $R(\theta)$.
+
+* **Details**:
+  * Implement `x(theta, v0, g, gamma, t)` that returns the horizontal
+    position at time `t`.
+  * Make sure to handle the special case $\gamma = 0$ (no drag).
+  * Compute the range $R(\theta)$ for a given $\theta$ by evaluating
+    $$x\bigl(\theta, v0, g, \gamma, T(\theta)\bigr),$$
+    where $T(\theta)$ is the flight time found in Assignment 1.
+  * Verify that when $\gamma = 0$, your result approximates the
+    standard no-drag range formula
+    $$R(\theta) = \frac{v_0^2}{g},\sin\bigl(2,\theta\bigr).$$
+  * The description of this assignment and a solution template can be
+    found in phys305_hw2/a2.py.
+
+
 ## Submission Guidelines
 
 1. Create a new repostiory based on this template by using the GitHub
