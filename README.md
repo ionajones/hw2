@@ -76,7 +76,7 @@ maximize your score.
     standard no-drag range formula
     $$R(\theta) = \frac{v_0^2}{g},\sin\bigl(2,\theta\bigr).$$
   * The description of this assignment and a solution template can be
-    found in phys305_hw2/a2.py.
+    found in `src/phys305_hw2/a2.py`.
 
 ### **Assignment 3**: Finite Difference Scheme for $R'(\theta)$ (2 points)
 
