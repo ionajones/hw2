@@ -1,0 +1,316 @@
+data representation and errors:
+- idea: coding color picker using hexcode representation.
+  student: Hannah
+- idea: Develop a function that checks whether or not a set of data follows benford's
+    law within python
+  student: Tyler
+- idea: Create a program that is able to convert any value into a different base system.
+    For example, converting it into a base-eight value from a base-six value.
+  student: Aleah
+- idea: Develop a four function multibit binary calculator, capable of taking inputs
+    of binary numbers as python lists with the least significant digit first and perform
+    addition, subtraction, multiplication, and division
+  student: Vaibhav
+- idea: Investigate the impact of instrumental noise and atmospheric distortions on
+    spectral measurements. Use statistical error propagation techniques to quantify
+    uncertainties in spectral line measurements and develop correction algorithms.
+  student: Shashank
+- idea: Use Benford's Law to analyze the percentage of female legislators around the
+    world
+  student: Adrian
+- idea: Use a code which places randomly-selected points onto a grid, in which a circle
+    is overlayed, using the points found in/outside the circle to estimate pi, and
+    the error after x points added.
+  student: Adam
+
+numerical linear algebra:
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Garrett
+- idea: Develop a matrix multiplication algorithm to model the population dynamics
+    of Arizona prior and after the start of COVID
+  student: michael
+- idea: Devolop a program that models heat transfer through planetary surfaces over
+    time.
+  student: Aaron M
+- idea: Solve for the gravitational wave signal produced by binary black hole mergers.
+  student: Anna
+- idea: Develop a program that can input large data sets, and then efficiently use
+    matrix operations to calculate a regression (linear, quadratic, cubic, etc.) model
+    of the users choosing.
+  student: Aleah
+- idea: Develop a fast algorithm to compute matrix exponentiation using diagnolization.
+  student: Luke
+- idea: Devolop an algorithm to take the hermitian conjugate of matrices
+  student: Luke
+- idea: Develop an algorithm to efficiently apply Kirchoff's laws to a complicated
+    system of electrical circuits.
+  student: Austin
+- idea: Analyzing quantum states with linear algebra.
+  student: Fiona
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Aaron S
+- idea: Develop a fast matrix multiplication algorithm to simulate large-scale quantum
+    systems more efficiently, reducing computational time in physics research.
+  student: John
+- idea: Develop code to help solve difficult PDE's that I commonly see.
+  student: Colin
+- idea: Numerically solve the time independent Schrodinger Equation with eigen pairs
+    of the Hamiltonian matrix for known, simple potentials and plot wavefunctions
+  student: Vaibhav
+- idea: Solve a system of an arbitrary number of springs and masses, with differring
+    masses and spring constants
+  student: Adam
+- idea: Implement FEM to model deformation of 2-dimensional solids
+  student: Noah
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Julien
+- idea: Develop an algorithm for solving fluid dynamics problems
+  student: Suprabhas
+- idea: develope an algorithim that replecates the Gram Shmidt process I looked online
+    and belive that there is no built in for this
+  student: Thomas
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Elizabeth
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Adrian
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference.
+  student: Gineka
+- idea: Develop a fast matrix multiplication algorithm to reduce energy consumption
+    during deep learning inference. Compute the matrix.
+  student: Rachel
+- idea: Develop a visualization tool for large-scale matrix operations in scientific
+    computing.
+  student: Penny
+
+fourier transform and spectral analysis:
+- idea: Develop a program to determine the composition of samples by analyzing the
+    corresponding spectra using spectral analysis techniques.
+  student: Aakanksha
+- idea: Create software to analyze spectral properties of sound travelling in diverse
+    media. Analyze overtones, wave speed, etc.
+  student: James
+- idea: Develop a low-level method to analyze the neural oscillations of the C. elegans
+    using data from behavioral simulations
+  student: michael
+- idea: Perform spectral analysis of pulsar signals to calculate their periods and
+    investigate frequency drift.
+  student: Anna
+- idea: Delevlop an algorithm that monitors seismic activity and creates fourier transforms
+    to represent it
+  student: Iona
+- idea: Efficiently analyze the spectra of a set of stars to determine properties
+    about them.
+  student: Austin
+- idea: detecting signals from variable stars or pulsars
+  student: Fiona
+- idea: Image processing or denoising, with convolution, or fft.
+  student: Fiona
+- idea: Design a program to analyze periodic signals in noisy data using Fourier transform,
+    with applications in audio signal processing.
+  student: Aaron S
+- idea: Create a tool that analyzes the spectral lines from distant stars to determine
+    their composition and motion, aiding in astrophysical studies.
+  student: John
+- idea: Develop a code that reads a modulated wave and, deconstructing it with the
+    carrier wave, returns an estimated input wave
+  student: Adam
+- idea: Analyze emittance and reflectance spectra of materials with Fourier transforms
+    (over wavelength or wavenumber) to gain information about energy band structure
+  student: Noah
+- idea: Analyze spectral data from the 61-inch telescope at Kitt Peak using BDR filters.
+    Apply Fourier Transform techniques to remove noise, identify spectral features,
+    and compare observed spectra with known stellar or galactic templates.
+  student: Shashank
+- idea: Develop a Fast Fourier Transform algorithm to take radio data from space and
+    separate into different frequencies for analysis.
+  student: Julien
+- idea: Identify Exoplanets in a star's light curve using Fast Fourier Transform
+  student: Suprabhas
+- idea: Investigate the frequency content of seismic data, using Fourier methods to
+    filter noise and reveal underlying wave patterns.
+  student: Naeem
+- idea: Apply to stock market or real life problems
+  student: Hina
+- idea: Signal De-noising using Fourier Transform
+  student: Amritaansh
+- idea: Analyze real-world signals using Fourier transforms to detect hidden periodicities
+    in astronomical or seismic data.
+  student: Aurora
+- idea: Implement a real-time compressed FFT (Fast Fourier Transform) algorithm for
+    energy-efficient signal processing in IoT audio devices.
+  student: Penny
+- idea: Use Fast Fourier Transform (FFT) to analyze the power spectrum of a chaotic
+    system, such as a Pendulum with Damping.
+  student: Sepehr
+- idea: Use Fourier transforms to reduce noise in magnetometer data obtained through
+    lunar and planetary orbiters.
+  student: Aaron M
+- idea: Use Fast Fourier Transform to identify pulsars from Radio signal in space
+  student: Suprabhas
+
+interpolation and extrapolation:
+- idea: interpolating data points between existing tables of quantum mechanical pressure
+    for stellar evolution equation of state models.
+  student: Hannah
+- idea: Approximate functions from a data set
+  student: Gineka
+- idea: Implement and compare various interpolation techniques to reconstruct missing
+    data in climate models.
+  student: Aurora
+
+numerical and automatic derivatives:
+- idea: Develop a progream that finds the rate of change of a system
+  student: Gineka
+- idea: Develope a code to handle some of the more complex derivatives in my major.
+  student: Colin
+- idea: creat an algorithim that numerically calculates derivatives and use this to
+    numerically solve ODE and PDE
+  student: Thomas
+- idea: pick a function such as the schrodinger equation and use automatic methods
+    to find the derivative and compare the error to hand computations
+  student: Elizabeth
+
+numerical integration of functions:
+- idea: Find the gravitational potential of a galaxy by modeling its mass distribution.
+  student: Anna
+- idea: Use numerical integration methods to solve the double pendulum problem; this
+    would be done by solving for the two angular coordinates as functions of time
+    from the Lagrange equations, and would be able to implement different intial conditions.
+  student: Aleah
+- idea: Develop a barebones gravitational star formation simulation. This simulation
+    will apply gravity to a set of particles in 3D space. How this could be accomplished
+    is as yet unknown.
+  student: Pranav
+- idea: Develop an algorithm for numerical integration of complex functions
+  student: Luke
+- idea: Create an algorithm to determine the volume of an irregular solid object.
+  student: Austin
+- idea: Develope a code to handle longer integral that require multiple u substitutions
+    or integratons by parts.
+  student: Colin
+- idea: Derive higher-order Simpson's and Bode's rules and directly implement them
+    in Python. Profile performance versus convergence to characterize each algorithm's
+    efficiency and efficacy over a sample of functions. Alternatively, implement these
+    algorithms for 2 or more dimensions.
+  student: Noah
+- idea: Create a rudimentary differential equation solver using Euler's method, etc.
+  student: James
+- idea: Integration of complicated function, what you do not know the fundamental
+    antiderivatives
+  student: Hina
+- idea: Solving Analytically Unsolvable Complex Integrals using Numerical Integration
+  student: Amritaansh
+- idea: Numerical Integration in Quantum Mechanics and Evaluating Wavefunctions, analyzing
+    the quantum harmonic oscillator system and compute the probabilty function, with
+    different integration techniques.
+  student: Sepehr
+
+root finding:
+- idea: Develop a fast quick root finder within python
+  student: Tyler
+- idea: An algorithm that can solve exponential functions with a high degree of accuracy
+  student: Iona
+- idea: Develop a program that finds and plots Lagrange points for various arbitrary
+    and real world systems using root finding methods
+  student: Vaibhav
+- idea: Develop an algorithm to generalize existing root finding methods in higher
+    dimensions.
+  student: Julien
+- idea: Finding interesting ways to calculate complex roots
+  student: Adrian
+- idea: Create a code that sovlves a quadratic equation to find the roots of the polynomial.
+  student: Rachel
+- idea: Develop a robust and energy-efficient root-finding algorithm for non-linear
+    equations in power grid simulations, reducing the computational cost of steady-state
+    analysis.
+  student: Penny
+
+optimization:
+- idea: Optimize a known algorithm used to calculate a trial wavefunction's method
+    (variational principle) in order to reduce run-times
+  student: michael
+- idea: Develop algorithm using lagrange mechanics to find the lowest effort trajectory
+  student: Iona
+- idea: Accelerate existing simulation code by incorporating GPU-based hardware acceleration.
+    This could be done using Nvidia's CUDA toolkit. Additional optimization could
+    be achieved by paralellelizing the code to utilize multiple CPU cores.
+  student: Pranav
+- idea: Create a gradient-based optimization algorithm for tuning hyperparameters
+    in machine learning models to enhance model accuracy and training efficiency.
+  student: Aaron S
+- idea: Design an optimization algorithm to improve the accuracy of particle trajectory
+    predictions in accelerator physics experiments.
+  student: John
+- idea: Use optimization principles to design a program that helps optimize heat engines
+    and improve efficiency.
+  student: Aakanksha
+- idea: Implement gradient-based and gradient-free optimization methods to find minimal
+    energy configurations in a physics-inspired system or cost function.
+  student: Naeem
+- idea: In lecture we talked about how built in python functions can break down an
+    idea I had was to find an area where this occurs and optimize the built in to
+    remove the break down
+  student: Thomas
+- idea: work on the traveling salesman problem to find an algorithm that has the shortest
+    route. Also compare different algorithms.
+  student: Elizabeth
+- idea: Optimization of a Bridge Structure to Minimize Material Usage while maintaining
+    Integrity
+  student: Amritaansh
+
+data modeling and machine learning:
+- idea: model stellar evolution given initial conditions.
+  student: Hannah
+- idea: Use machine learning to classify exoplanets based on their atmospheric spectra
+  student: Aaron M
+- idea: Develop a function that takes a picture of a number and evaluates the picture,
+    returning the corresponding interger
+  student: Tyler
+- idea: Use a machine learning pipeline to classify stars vs galaxies from Hubble/JWST
+    survey data. Scikit-learn could be used to train a model on a curated dataset.
+  student: Pranav
+- idea: Develop a machine learning pipeline to classify stellar spectra based on BDR
+    filter data. Train a model using existing spectral databases to automatically
+    identify star types and estimate redshift for extragalactic sources.
+  student: Shashank
+- idea: Design a pipeline that uses regression and classification models to predict
+    outcomes for a real-world dataset, then compare performance across models.
+  student: Naeem
+- idea: Using C/C++, create a neural network (using std::array) which identifies graphene
+    flakes (something that I spend much time doing manually in my research). Fourier
+    analysis will also be useful in terms of finding edges to objects.
+  student: James
+- idea: Apply machine learning techniques to classify and predict physical phenomena,
+    such as phase transitions in materials science.
+  student: Aurora
+- idea: Implement a neural network to predict the behavior of physical systems, focusing
+    on pendulum motion prediction with various initial conditions.
+  student: Sepehr
+- idea: Develop a basic machine learning algorithm to classify stars into their spectral
+    classes based on characteristic data.
+  student: Aakanksha
+
+population dynamics:
+- idea: Use optimization techniques to fit a model to the population data.
+  student: Grace
+
+comparing cross & auto correlated power spectra:
+- idea: Find a dataset of two point correlation functions from two samples of the
+    density or galaxy distribution of the universe. Fourier transform them  in combination
+    for a cross correlation and by themselves for auto.
+  student: Grace
+
+coupled harmonic oscillators:
+- idea: Find the ratio of two spring constants for 2 sets of coupled harmonic oscillators
+  student: Rachel
+
+stock market modeling:
+- idea: Find market data and fit the data to a simple model to attempt to forecast
+    the market.
+  student: Grace
