@@ -24,14 +24,21 @@
 # * The description of this assignment and a code skeleton can be
 #   found in `src/phys305_hw2/a1.py`.
 
-def newton(f, x0, tol=1e-6, imax=100):
-    # TODO: document and implement a Newton-Raphson algorithm here
+import jax
+jax.config.update("jax_enable_x64", True)
+
+from jax import numpy as np
+from jax import grad
+
+def root(f, x0, tol=1e-12, imax=1000):
+    # TODO: document and implement a root finder here;
+    # you may use JAX's `grad()` function for autodiff.
     pass
 
 def y(theta, v0, g, gamma, t):
     # TODO: document and implement the vertical position function here
     pass
 
-def T(theta, v0, g, gamma):
+def T_flight(theta, v0, g, gamma):
     # TODO: document and implement the flight time function here
     pass

@@ -23,10 +23,13 @@
 # * The description of this assignment and a solution template can be
 #   found in `src/phys305_hw2/a2.py`.
 
+import numpy as np
+from phys305_hw2 import T_flight
+
 def x(theta, v0, g, gamma, t):
     # TODO: document and implement the horizontal position function here
     pass
 
-def R(theta, v0, g, gamma):
+def R_proj(theta, v0, g, gamma):
     # TODO: document and implement the range function here
     pass

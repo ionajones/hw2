@@ -25,7 +25,11 @@
 # * A code template for this assignment can be found in
 #   `src/phys305_hw2/a4.py`.
 
-def gd_hist(df, x0, alpha, imax=1000):
+import numpy as np
+
+from phys305_hw2 import Rp_proj
+
+def gd_hist(df, x0, alpha, tol=1e-6, imax=1000):
     # TODO: document and implement a gradient descent.
     pass
 

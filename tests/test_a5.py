@@ -22,5 +22,5 @@ def test_format():
 
         # Ensure the loaded content is a dictionary
         assert isinstance(d, dict), "The YAML file must be a dictionary."
-        assert 'team' in d
-        assert 'date' in d
+        assert d['team']
+        assert d['date']

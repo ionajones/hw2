@@ -22,10 +22,12 @@
 # * The description and relevant code can be found in
 #   `src/phys305_hw2/a3.py`.
 
-def fd(f, x, h):
+from phys305_hw2 import R_proj
+
+def fd(f, x, h=1e-8):
     # TODO: document and implement a finite difference method
     pass
 
-def Rp(theta, v0, g, gamma):
+def Rp_proj(theta, v0, g, gamma):
     # TODO: document and implement the derivative of the range function here
     pass
